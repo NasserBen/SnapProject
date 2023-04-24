@@ -4,7 +4,7 @@ import { Navbar, Menu, AboutUs, Gallery, Footer } from "./Components";
 
 function App() {
   return (
-    <div>
+    <div className="bg-red-500">
       <Navbar />
       <Menu />
       <AboutUs />
