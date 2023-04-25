@@ -3,7 +3,7 @@ import { aboutUs, aboutUsLogo } from "../Assets";
 
 function AboutUs() {
   return (
-    <div className="bg-custom-red-light">
+    <div className="bg-custom-red-light" id="aboutus">
       <div>
         <p className="text-5xl font-bold text-custom-red-dark text-center py-10">
           About Us

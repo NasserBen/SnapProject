@@ -17,7 +17,7 @@ import {
 
 function Menu() {
   return (
-    <div className="bg-white">
+    <div className="bg-white" id="menu">
       <div>
         <p className="text-5xl font-bold text-custom-red-dark text-center py-10">
           Cookies

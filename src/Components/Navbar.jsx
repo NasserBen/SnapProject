@@ -38,8 +38,13 @@ function Navbar() {
           {navLinks.map((link) => (
             <li key={link.id} className="md:ml-8 text-xl md:my-0 my-7">
               <a
-                href={`#${link.id}`}
+                href={`${
+                  link.id === "gallery"
+                    ? "https://www.facebook.com/DiddyRieseCookies/"
+                    : `#${link.id}`
+                }`}
                 className="text-gray-800 hover:text-gray-400 duration-500 ml-9 md:ml-0"
+                onClick={() => setOpen(!open)}
               >
                 {link.title}
               </a>

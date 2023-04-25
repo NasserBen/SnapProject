@@ -4,12 +4,11 @@ import { Navbar, Hero, Menu, AboutUs, Gallery, Footer } from "./Components";
 
 function App() {
   return (
-    <div className="">
+    <div>
       <Navbar />
       <Hero />
       <Menu />
       <AboutUs />
-      <Gallery />
       <Footer />
     </div>
   );
