@@ -8,7 +8,7 @@ function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="shadow-md w-full fixed top-0 left-0">
+    <nav className="shadow-md w-full sticky">
       <div className="md:flex items-center justify-between bg-white py-2 md:px-10 px-7">
         <div className="font-bold text-2xl cursor-pointer flex items-center justify-between">
           <div className="flex items-center">

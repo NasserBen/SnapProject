@@ -1,11 +1,12 @@
 import "./App.css";
 
-import { Navbar, Menu, AboutUs, Gallery, Footer } from "./Components";
+import { Navbar, Hero, Menu, AboutUs, Gallery, Footer } from "./Components";
 
 function App() {
   return (
     <div className="bg-red-500">
       <Navbar />
+      <Hero />
       <Menu />
       <AboutUs />
       <Gallery />
