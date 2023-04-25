@@ -12,6 +12,7 @@ import vanilla from "./vanilla.png";
 import mint from "./mint.png";
 import cookiesCream from "./cream.png";
 import pecan from "./pecan.png";
+import aboutUs from "./aboutUs.png";
 
 export {
   logo,
@@ -28,4 +29,5 @@ export {
   mint,
   cookiesCream,
   pecan,
+  aboutUs,
 };
