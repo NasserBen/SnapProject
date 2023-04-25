@@ -14,11 +14,10 @@ function AboutUs() {
           <img
             className="w-[350px] 	 md:border-solid border-8 border-custom-red-dark rounded"
             src={aboutUs}
-            alt="chocolate chip cookie"
           />
         </div>
         <div>
-          <p className="text-custom-red-dark mt-10 px-4 leading-7 md:px-36">
+          <p className="text-custom-red-dark mt-10 px-4 leading-7 md:px-36 lg:px-72">
             Diddy Riese Cookies first opened its doors in 1983 and has been
             serving high quality cookies, brownies and ice cream – at very
             reasonable prices – to the Los Angeles community ever since. We are
@@ -34,9 +33,9 @@ function AboutUs() {
             please think of Diddy Riese when planning your next occasion. We
             would be delighted to help make your event a great success!
           </p>
-          <p className="font-bold text-custom-red-dark mt-10 px-4 leading-7 md:px-36">
+          <p className="font-bold text-custom-red-dark mt-10 px-4 leading-7 md:px-36 lg:px-72">
             Oh, in case you were wondering about the name, Diddy Riese is
-            proudly named in honor of our beloved grandmother
+            proudly named in honor of our beloved grandmother.
           </p>
         </div>
       </div>
