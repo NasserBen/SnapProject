@@ -8,8 +8,8 @@ function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="shadow-md w-full sticky">
-      <div className="md:flex items-center justify-between bg-white py-2 md:px-10 px-7">
+    <nav className="shadow-md w-full fixed">
+      <div className="md:flex items-center justify-between bg-white py-2 md:px-10 px-7 ">
         <div className="font-bold text-2xl cursor-pointer flex items-center justify-between">
           <div className="flex items-center">
             <img src={logo} alt="logo" className="w-[82px] h-[69px]" />
